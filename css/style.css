@@ -1,0 +1,97 @@
+body {
+  width: 901px;
+  margin: auto;
+}
+
+.logoDiv {
+  /* float: left; */
+  outline: 1px solid black;
+  display: inline-block;
+}
+
+#forkLogo {
+  display: inline-block;
+}
+
+.logoCopy {
+  display: inline-block;
+}
+
+.socialLogos {
+  float: right;
+  padding-top: 10px;
+  outline: 1px solid black;
+}
+
+.bgLines {
+  /* come back to this  */
+  background-image: url(../images/hr-img.png);
+  background-color: white;
+  height: 15px;
+  width: 100%;
+  margin-bottom: 55px;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.datePrint {
+  outline: 1px solid red;
+  display: inline-block;
+  width: 100%;
+  color: slategray;
+  margin-bottom: 25px;
+}
+
+.datePrint > p {
+  outline: 1px solid blue;
+  width: 350px;
+  display: inline-block;
+}
+
+.print {
+  outline: 1px solid black;
+  float: right;
+  width: 65px;
+}
+
+.print > p {
+  float: right;
+}
+
+.printImg {
+  display: inline-block;
+}
+
+.pCopy > p {
+font-size: large;
+margin-bottom: 10px;
+text-indent: 2em;
+color: rgb(66, 75, 85);
+}
+
+.ingredientsList {
+  text-align: center;
+  height: 200px;
+  background-image: url(../images/list-bg.png);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-shadow: 0px 2px lightgrey, 0px 4px lightyellow, 0px 6px lightgrey, 0px 8px lightyellow;
+}
+
+.groupLeft {
+  outline: 1px solid pink;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+
+.groupRight {
+  outline: 1px solid green;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
