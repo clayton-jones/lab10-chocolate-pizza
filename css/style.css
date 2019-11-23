@@ -1,0 +1,10 @@
+.logoDiv {
+  /* float: left; */
+  outline: 1px solid black;
+  display: inline-block;
+}
+
+#forkLogo {
+  display: inline-block;
+}
+
