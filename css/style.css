@@ -72,3 +72,26 @@ margin-bottom: 10px;
 text-indent: 2em;
 color: rgb(66, 75, 85);
 }
+
+.ingredientsList {
+  text-align: center;
+  height: 200px;
+  background-image: url(../images/list-bg.png);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  box-shadow: 0px 2px lightgrey, 0px 4px lightyellow, 0px 6px lightgrey, 0px 8px lightyellow;
+}
+
+.groupLeft {
+  outline: 1px solid pink;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+
+.groupRight {
+  outline: 1px solid green;
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
