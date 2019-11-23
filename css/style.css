@@ -29,13 +29,14 @@ body {
   background-color: white;
   height: 15px;
   width: 100%;
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
   margin-top: 25px;
 }
 
 h2 {
   font-size: 30px;
   font-weight: bold;
+  margin-top: 55px;
 }
 
 .datePrint {
@@ -87,6 +88,7 @@ color: rgb(66, 75, 85);
   display: inline-block;
   width: 45%;
   text-align: left;
+  margin-top: 35px;
 }
 
 .groupRight {
@@ -94,4 +96,95 @@ color: rgb(66, 75, 85);
   display: inline-block;
   width: 45%;
   text-align: left;
+  margin-top: 35px;
+
+}
+/* 
+.byLine {
+  margin-top: 10px;
+  display: inline-block;
+  outline: 1px solid purple;
+  height: 150px;
+}
+
+
+#vanPic {
+  display: inline;
+}
+
+
+#vanPic {
+  outline: 1px dashed blue;
+  float: left;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+h2.footerCopy {
+  font-size: 20px;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+  outline: 1px solid yellowgreen;
+}
+
+p.footerCopy {
+  display: inline-block;
+  outline: 1px solid red;
+}
+
+button {
+  height: 50px;
+  width: 140px;
+  background-color: rgb(161, 54, 4);
+  color: white;
+  float: left;
+  font-size: large;
+  margin: 5px 20px 0px 0px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#divFoot {
+  outline: 1px solid fuchsia;
+  width: 70%;
+} */
+
+#vanPic {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer > div.bgLines {
+  margin-bottom: 10px;
+}
+
+footer {
+  outline: 2px dashed palegreen;
+  /* height: 60px; */
+}
+
+#divFoot {
+  display: inline-block;
+  vertical-align: top;
+}
+
+button {
+  display: inline-block;
+  vertical-align: top;
+    margin: 10px 0 0 10px;
+    height: 40px;
+    width: 130px;
+    background-color: #ad2c0f;
+    color: white;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p.footerCopy {
+  width: 80%;
+  line-height: 1.3;
 }
