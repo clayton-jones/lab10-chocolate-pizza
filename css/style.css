@@ -4,7 +4,6 @@ body {
 }
 
 .logoDiv {
-  /* float: left; */
   display: inline-block;
 }
 
@@ -21,8 +20,6 @@ body {
   color: grey;
 }
 
-
-
 .socialLogos {
   float: right;
   padding-top: 10px;
@@ -36,12 +33,10 @@ body {
   }
 
 .bgLines {
-  /* come back to this  */
   background-image: url(../images/hr-img.png);
   background-color: white;
   height: 15px;
   width: 100%;
-  /* margin-bottom: 55px; */
   margin-top: 45px;
 }
 
@@ -111,55 +106,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 35px;
 
 }
-/* 
-.byLine {
-  margin-top: 10px;
-  display: inline-block;
-  outline: 1px solid purple;
-  height: 150px;
-}
-
-
-#vanPic {
-  display: inline;
-}
-
-
-#vanPic {
-  outline: 1px dashed blue;
-  float: left;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-h2.footerCopy {
-  font-size: 20px;
-  margin: 10px 0 10px 0;
-  display: inline-block;
-  outline: 1px solid yellowgreen;
-}
-
-p.footerCopy {
-  display: inline-block;
-  outline: 1px solid red;
-}
-
-button {
-  height: 50px;
-  width: 140px;
-  background-color: rgb(161, 54, 4);
-  color: white;
-  float: left;
-  font-size: large;
-  margin: 5px 20px 0px 0px;
-  vertical-align: top;
-  display: inline-block;
-}
-
-#divFoot {
-  outline: 1px solid fuchsia;
-  width: 70%;
-} */
 
 #vanPic {
   display: inline-block;
@@ -176,7 +122,6 @@ footer > div.bgLines {
 }
 
 button {
-  /* display: inline-block; */
   vertical-align: top;
     margin: 10px 0 0 10px;
     height: 40px;
