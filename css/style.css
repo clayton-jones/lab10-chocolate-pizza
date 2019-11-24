@@ -5,7 +5,6 @@ body {
 
 .logoDiv {
   /* float: left; */
-  outline: 1px solid black;
   display: inline-block;
 }
 
@@ -17,11 +16,24 @@ body {
   display: inline-block;
 }
 
+.logoCopy > p {
+  font-size: 10px;
+  color: grey;
+}
+
+
+
 .socialLogos {
   float: right;
   padding-top: 10px;
-  outline: 1px solid black;
 }
+
+.socialLogos > img {
+  margin: -1px;
+}
+  #pint-img {
+    margin-right: 4px;
+  }
 
 .bgLines {
   /* come back to this  */
@@ -30,31 +42,30 @@ body {
   height: 15px;
   width: 100%;
   /* margin-bottom: 55px; */
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 55px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .datePrint {
-  outline: 1px solid red;
   display: inline-block;
   width: 100%;
-  color: slategray;
+  color: rgba(112, 128, 144, 0.582);
   margin-bottom: 25px;
+  font-size: 12px;
 }
 
 .datePrint > p {
-  outline: 1px solid blue;
   width: 350px;
   display: inline-block;
 }
 
 .print {
-  outline: 1px solid black;
   float: right;
   width: 65px;
 }
@@ -65,13 +76,15 @@ h2 {
 
 .printImg {
   display: inline-block;
+  margin-right: -5px;
 }
 
 .pCopy > p {
-font-size: large;
-margin-bottom: 10px;
+font-size: medium;
+margin-bottom: 25px;
 text-indent: 2em;
 color: rgb(66, 75, 85);
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .ingredientsList {
@@ -81,10 +94,10 @@ color: rgb(66, 75, 85);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   box-shadow: 0px 2px lightgrey, 0px 4px lightyellow, 0px 6px lightgrey, 0px 8px lightyellow;
+  font-family: 'Handlee', cursive;
 }
 
 .groupLeft {
-  outline: 1px solid pink;
   display: inline-block;
   width: 45%;
   text-align: left;
@@ -92,7 +105,6 @@ color: rgb(66, 75, 85);
 }
 
 .groupRight {
-  outline: 1px solid green;
   display: inline-block;
   width: 45%;
   text-align: left;
@@ -173,7 +185,10 @@ button {
     color: white;
     float: right;
 }
-
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
+}
 h3 {
   font-size: 20px;
   font-weight: bold;
@@ -187,9 +202,10 @@ p.footerCopy {
 
 #copyright {
   text-align: center;
-  color: gray;
+  color: rgba(128, 128, 128, 0.685);
   margin-top: 15px;
   margin-bottom: 30px;
+  font-size: 12px;
 }
 
 #smallLogoDiv {
@@ -208,4 +224,16 @@ p.footerCopy {
 
 .byLine {
   margin-bottom: 25px;
+}
+
+input[type=checkbox]:checked + label.strike{
+  text-decoration: line-through;
+}
+
+li {
+  padding: 3px;
+}
+
+#pizzaImgDiv {
+  margin-bottom: 20px;
 }
